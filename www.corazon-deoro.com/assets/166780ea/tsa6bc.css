@@ -1,0 +1,324 @@
+body {
+    background-image:url('../../../wscdo-33cdn153.netdna-ssl.com/images/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+    background-color:#021124;
+}
+
+.countdown {
+    background:inherit !important;
+    border: 0px !important;
+    line-height: initial !important;
+    font-size:150%;
+}
+.countdown-show3 .countdown-section {
+    width: 32% !important;
+}
+
+.ts {
+}
+
+.ts .head {
+    margin-top: 0vw;
+}
+.ts .head .title {
+    font-size: 200%;
+    color:#fff86f;
+    text-align: center;
+}
+.ts .head .title span {
+    font-weight:bold;
+    font-size: 150%;
+}
+.ts .head .subTitle {
+    color:#fff86f;
+    text-align: right;
+}
+.ts .head .subTitle > div {
+    line-height: 60px;
+    vertical-align: middle;
+}
+.ts .head .subTitle .col-xs-5,
+.ts .head .subTitle .col-xs-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.ts .head .countdownDiv {
+    /*float:left;*/
+}
+.ts .head .countdownDiv .countdown{
+}
+
+.ts .content {
+    min-height: 49vw;
+}
+.ts .content .left {
+    position: absolute;
+    width: 18%;
+    margin-top: -3vw;
+}
+.ts .content .left img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ts .foot {
+    position: relative;
+    overflow: auto;
+    min-height: 6vw;
+}
+.ts .foot .right {
+    position: absolute;
+    right: 4vw;
+    top: 0.5vw;
+    width: 15%;
+}
+.ts .foot .link {
+    text-align: center;
+    margin-top: 4vw;
+}
+.ts .foot .link a {
+    color: #888;
+    font-size:1.1vw;
+    cursor:pointer;
+}
+
+.tchatSimule {
+    position: absolute;
+    width: 50%;
+    margin: 0 33%;
+    margin-top: 2vw;
+}
+.tchatSimule .top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #48649f;
+    /*height: 30px;
+    line-height: 30px;*/
+    padding: 5px 3%;
+    color:white;
+}
+.tchatSimule .top > div {
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background-color:#009e1d;
+}
+.tchatSimule .middle {
+    background-color: #eceff5;
+}
+.tchatSimule .middle .date {
+    height:7vh;
+    text-align:center;
+    color:#a4aab4;
+    padding:5px;
+}
+.tchatSimule .middle .reader {
+    height: 25vw;
+    width: 99%;
+    overflow:auto;
+}
+.tchatSimule .middle .reader .imgProfile {
+    float:left;
+    width:50px;
+    height:50px;
+    margin: 0 20px 10px 10px;
+    border:1px #a4aab4 solid;
+}
+.tchatSimule .middle .reader .text-user,
+.tchatSimule .middle .reader .text {
+    float: left;
+    border-radius: 10px;
+    background: #fefefe;
+    border: 1px #a4aab4 solid;
+    padding: 4px 10px;
+    margin-top: 9px;
+}
+.tchatSimule .middle .reader .text-user {
+    float:right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.tchatSimule .middle .reader .line-typing .textTypingGif {
+    float: left;
+    height:3vw;
+}
+.tchatSimule .middle .reader .line-typing .textTypingGif img {
+    height:100%;
+    width:auto;
+}
+.tchatSimule .middle .reader .line-typing .text {
+    margin-top: 0px;
+}
+.tchatSimule .middle .reader .line-typing .textTyping {
+    color:#a4aab4;
+}
+.tchatSimule .middle .reader .line {
+    overflow: auto;
+}
+.tchatSimule .middle .writer {
+    background-color:#fefefe;
+    overflow:auto;
+    padding: 5px 0px;
+}
+.tchatSimule .middle .writer .btn-cdo {
+    background-color: #48649f;
+    color: white;
+}
+
+.fakeImg .col-xs-6 {
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.writerInput {
+    float:left;
+    width:80%;
+    padding: 10px;
+}
+.emoticon {
+    float:right;
+    width:20%;
+}
+
+
+/*  */
+
+.flip-clock-wrapper {
+    margin: 0;
+}
+.flip-clock-dot {
+    background:white;
+}
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #004276;
+}
+.flip-clock-divider .flip-clock-label {
+    display:none;
+}
+
+@media screen and (max-width: 1100px) {
+    h1, .h1 {
+        font-size: 24px;
+        margin:5px;
+    }
+    .ts .head .countdownDiv .countdown{
+    }
+}
+@media screen and (max-width: 800px) {
+    h1, .h1 {
+        font-size: 1rem;
+        margin:5px;
+    }
+    .ts .head .countdownDiv .countdown{
+    }
+    .tchatSimule {
+        width:60%;
+        margin: 0 27%;
+        margin-top: 10px;
+    }
+    .tchatSimule .middle .reader .imgProfile {
+        width: 40px;
+        height: 40px;
+        margin: 0 15px 7px 7px;
+        border: 1px #a4aab4 solid;
+    }
+    .tchatSimule .middle .date {
+        height: 6vh;
+    }
+    .tchatSimule .middle .reader .text-user,
+    .tchatSimule .middle .reader .text {
+        padding: 2px 8px;
+        margin-top: 3px;
+    }
+    .btn,
+    .form-control {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 680px) {
+    h1, .h1 {
+        font-size: 1rem;
+        margin:5px;
+    }
+    .ts .content .left {
+        display:none;
+    }
+    .tchatSimule {
+        position:relative;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .tchatSimule .middle .reader .imgProfile {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px 5px 5px;
+        border: 1px #a4aab4 solid;
+    }
+    .tchatSimule .middle .reader {
+        height: 40vw;
+    }
+    .tchatSimule .middle .date {
+        height: 5vh;
+    }
+    .chat-dob > div,
+    .chat-email > div,
+    .chat-firstname > div,
+    .chat-gender > div {
+        width:100% !important;
+    }
+    .tchatSimule .middle .writer {
+        padding: 1px 0;
+    }
+    .ts .foot .right {
+        display:none;
+    }
+    .writerInput {
+        float:inherit;
+        width:100%;
+        padding: 10px;
+    }
+    .emoticon {
+        display:none;
+    }
+    .tchatSimule .middle .reader .text-user,
+    .tchatSimule .middle .reader .text {
+        padding: 2px 8px;
+        margin-top: 3px;
+    }
+    .countdown {
+        font-size:80%;
+    }
+}
+@media screen and (max-width: 550px) {
+    h1, .h1 {
+        font-size: 1rem;
+        margin:5px;
+    }
+    .ts .head .countdownDiv .countdown{
+    }
+    .tchatSimule .middle .date {
+        height: 4vh;
+    }
+    /*.btn,
+    .form-control {
+        padding: 2px 3px;
+        height: auto;
+        font-size: 11px;
+        margin-top:3px;
+    }*/
+    .chat-dob > div,
+    .chat-email > div,
+    .chat-firstname > div,
+    .chat-gender > div {
+        width:100% !important;
+    }
+    .tchatSimule .middle .writer {
+        padding: 1px 0;
+    }
+    .ts .foot .right {
+        display:none;
+    }
+}

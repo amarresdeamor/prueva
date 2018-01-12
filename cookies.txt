@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.corazon-deoro.com	TRUE	/	FALSE	1999999999	_csrf	fe13d384d4144d6388b2be842ef03a1fc192f02912e81ad0698d7e73638691eea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ixVZOo2Jxm10yiXejmcO8V3wfiuLVg2b%22%3B%7D
+
